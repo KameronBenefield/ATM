@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//Menu
 void showMenu() {
     cout << "********************" << endl;
     cout << "1: Check Balance" << endl;
@@ -31,7 +31,8 @@ int main() {
         showMenu();
         cout << "Select an option ";
         cin >> optChoice;
-
+//ATM options
+//Pointers are used to keep track of each accounts balance
         switch (optChoice) {
             case 1:
                 if (act2Number != actNumber) {
